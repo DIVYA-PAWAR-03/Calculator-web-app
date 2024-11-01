@@ -2,6 +2,7 @@
      --primary-color:#3a4452;
      --background-color: #e3f9ff;
      --text-color: white;
+     --right-button: #eda520;
 }
 *,
 *::after,
@@ -45,7 +46,7 @@ font-size: 1.7rem;
     border-radius: 15px;
     box-shadow: -8px -8px 15px rgba(255,255,255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    font-size: 20px;
+    font-size: 30px;
     color: var(--text-color);
     cursor: pointer;
     margin: 10px;
@@ -63,6 +64,9 @@ margin: 10px 0;
     box-shadow: none;
 }
 
-.form .operator{
-    color: orange;
+.calculator .form .operator{
+    color: var(--right-button);
+}
+.calculator .form .equal{
+    width: 145px;
 }
